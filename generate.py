@@ -33,6 +33,8 @@ _BAZEL = os.getenv("BAZEL_COMPDB_BAZEL_PATH") or "bazel"
 
 _OUTPUT_GROUPS = "compdb_files,header_files"
 
+print("Hello----------------------------")
+
 
 def bazel_info():
     """Returns a dict containing key values from bazel info."""
